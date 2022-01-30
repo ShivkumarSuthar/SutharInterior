@@ -162,6 +162,7 @@ input[type="checkbox"] {
   height: 80vh;
 }
 .container .text {
+  padding-left: 40px;
   margin-left: 20px;
   margin-top: 13rem;
 }
@@ -182,6 +183,7 @@ input[type="checkbox"] {
   font-size: 1.7rem;
   font-weight: 400;
   color: darkblue;
+  width: 50rem;
 }
 .container .text .confirm {
   margin-left: 3rem;
@@ -212,14 +214,14 @@ input[type="checkbox"] {
 .container .images {
   float: right;
   object-fit: cover;
-  margin-top: -25rem;
-  margin-left: 58rem;
+  margin-top: -20rem;
+  margin-left: 52rem;
   margin-right: 7vh;
   box-shadow: 0.2rem 0.2rem 1rem rgba(90, 86, 85, 0.3);
   border-radius: 10px;
 
-  width: 75vh;
-  height: 50vh;
+  width:75vh;
+  height:50vh;
   background: url("/interior/pexels-vecislavas-popa-1571460.jpg");
   animation-name: slider;
   animation-duration: 15s;
